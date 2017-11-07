@@ -154,7 +154,17 @@ http://slidebase.binf.ku.dk/human_enhancers/presets
 
 BED files of enhancers in general "brain" tissue and in specific cells, e.g. neuron, dendritic cell, astrocyte.
 
+## Hi-C
+
+- Two human brain regions, dorsolateral prefrontal cortex, hippocampus. No replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87112
+- Two human brain regions: the cortical and subcortical plate (CP), consisting primarily of post-mitotic neurons and the germinal zone (GZ), containing primarily mitotically active neural progenitors. Three replicates per condition. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77565.
+- Six human brain tumours: five glioblastomas ( GB176, GB180, GB182, GB183 and GB238) and one anaplastic astrocytoma (AA86). No replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81879
+- Mouse neural progenitors (NPCs), and cortical neurons (CNs), purified NPC and CN populations from neocortex (ncx_NPC, ncx_CN). Replicates (4-6). https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96107.
+
 
 ## `Misc`
 
 A recent inventory of 2,104 human- gained enhancers active during cerebral corticogenesis [@Reilly:2015aa]. https://www.ncbi.nlm.nih.gov/pubmed/25745175, ChIP-seq of H3K27ac, H3K4me2, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63649
+
+
+Issues and/or Pull requests to add other data are welcome!
