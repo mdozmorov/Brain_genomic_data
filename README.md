@@ -167,6 +167,9 @@ BED files of enhancers in general "brain" tissue and in specific cells, e.g. neu
 
 - Zeisel, A., Munoz-Manchado, A.B., Codeluppi, S., Lonnerberg, P., La Manno, G., Jureus, A., Marques, S., Munguba, H., He, L., Betsholtz, C., et al. (2015). Brain structure. Cell types in the mouse cortex and hippocampus revealed by single-cell RNA- seq. Science 347, 1138–1142. 3,005 single cells from the hippocampus and cerebral cortex of mice. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60361,  http://linnarssonlab.org/cortex/, and more on this site.
 
+- The 1 million neuron data set from the 10X Genomics website (hhttps://support.10xgenomics.com/single-cell-gene-expression/datasets). R packages for its analyses: `TENxGenomics`, https://github.com/mtmorgan/TENxGenomics, `TENxBrainAnalysis`, https://github.com/Bioconductor/TENxBrainAnalysis
+
+
 ## `Misc`
 
 - A recent inventory of 2,104 human- gained enhancers active during cerebral corticogenesis [@Reilly:2015aa]. https://www.ncbi.nlm.nih.gov/pubmed/25745175, ChIP-seq of H3K27ac, H3K4me2, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63649
