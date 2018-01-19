@@ -147,12 +147,17 @@ https://www.synapse.org/#!Synapse:syn4566010
 
 ChIP-seq on H3K27ac and H3K4me3, Controlled access data. Mostly normal brains, PFC and ACC from the same individual.
 
-
 ## `FANTOM5` 
 
 http://slidebase.binf.ku.dk/human_enhancers/presets
 
 BED files of enhancers in general "brain" tissue and in specific cells, e.g. neuron, dendritic cell, astrocyte.
+
+## `Braineac`
+
+The Brain eQTL Almanac. Gene- or SNP-centric exploration of brain region-specific eQTLs
+
+http://www.braineac.org/
 
 ## Hi-C
 
