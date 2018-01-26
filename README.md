@@ -174,6 +174,9 @@ http://www.braineac.org/
 
 - The 1 million neuron data set from the 10X Genomics website (hhttps://support.10xgenomics.com/single-cell-gene-expression/datasets). R packages for its analyses: `TENxGenomics`, https://github.com/mtmorgan/TENxGenomics, `TENxBrainAnalysis`, https://github.com/Bioconductor/TENxBrainAnalysis
 
+- Luo, Chongyuan, Christopher L. Keown, Laurie Kurihara, Jingtian Zhou, Yupeng He, Junhao Li, Rosa Castanon, et al. “Single-Cell Methylomes Identify Neuronal Subtypes and Regulatory Elements in Mammalian Cortex.” Science (New York, N.Y.) 357, no. 6351 (11 2017): 600–604. https://doi.org/10.1126/science.aan3351. - single-cell methylation of human and mouse neuronal cells. Marker genes with cell type-specific methylation profiles - Table S3, http://science.sciencemag.org/content/suppl/2017/08/09/357.6351.600.DC1
+
+
 
 ## `Misc`
 
