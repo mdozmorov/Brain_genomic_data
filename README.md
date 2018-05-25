@@ -159,6 +159,12 @@ The Brain eQTL Almanac. Gene- or SNP-centric exploration of brain region-specifi
 
 http://www.braineac.org/
 
+## `BrainGVEX`
+
+Genetic variants affect brain gene expression and risks of psychiatric disorders. eQTLs, pQTLs, csQTLs (chromatin state) from genotypes, RNA-seq, ATAC-seq, protein arrays
+
+https://www.synapse.org/#!Synapse:syn4590909, Controlled access data 
+
 ## Hi-C
 
 - Two human brain regions, dorsolateral prefrontal cortex, hippocampus. No replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87112
