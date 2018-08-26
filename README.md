@@ -1,10 +1,30 @@
-# Brain-related -omics data
+# Brain-related omics data
 
-## `Allen_Brain_Atlas` - Allen Brain Atlas, Human brain
+Mostly human, but some datasets contain omics data from model organisms.
 
-RNA-Sequencing datasets from two brains
+* [Consortia](#consortia)
+  * [Allen Brain Atlas](#allen-brain-atlas)
+  * [BrainSpan](#brainspan)
+    * [Methylation](#methylation)
+    * [microRNA](#microrna)
+    * [RNA-seq](#rna-seq)
+  * [CommonMind](#commonmind)
+  * [Roadmap](#roadmap)
+  * [PsychENCODE](#psychencode)
+  * [HumanFC](#humanfc)
+  * [EpiMap](#epimap)
+  * [FANTOM5](#fantom5)
+  * [Braineac](#braineac)
+  * [BrainGVEX](#braingvex)
+* [Hi-C data](#hi-c-data)
+* [Single-cell RNA-seq](#single-cell-rna-seq)
+* [Misc](#misc)
 
-http://human.brain-map.org/static/download
+# Consortia
+
+## Allen Brain Atlas
+
+Allen Brain Atlas, Human brain. RNA-Sequencing datasets from two brains. http://human.brain-map.org/static/download
 
 These datasets contain gene expression values (raw and TPM counts) for a selected set of anatomic structures matched across the two brains, as well as sample and gene metadata necessary for analysis: H0351.2001, H0351.2002.
 
@@ -40,7 +60,9 @@ CbCx  CgG   FL   GP  Ins   OL  PHG   PL  Str   TL
 ```
 
 
-## `BrainSpan` - BrainSpan transcriptomics and epigenomics of the developing human brain
+## BrainSpan
+
+BrainSpan transcriptomics and epigenomics of the developing human brain
 
 Brain regions:
 
@@ -62,7 +84,7 @@ Brain regions:
 - CBC	Cerebellar cortex
 - M1C-S1C	Primary motor-sensory cortex (samples)
 
-### `Methylation`
+### Methylation
 
 http://download.alleninstitute.org/brainspan/Methylation/ 
 
@@ -72,13 +94,13 @@ http://download.alleninstitute.org/brainspan/Methylation/
 
 Unzipped files are tab-delimited txt files, approx. twice in size, with commented header followed by the matrix of cgIDs and beta values. 
 
-### `microRNA`
+### microRNA
 
 http://download.alleninstitute.org/brainspan/MicroRNA/
 
 - `MicroRNA.xls` - Raw RNA-seq counts, 1861 miRNAs in 216 samples, http://download.alleninstitute.org/brainspan/MicroRNA/MicroRNA.xls 
 
-### `RNA-seq`
+### RNA-seq
 
 This data set contains RNA-Seq RPKM (reads per kilobase per million; see the whitepaper at www.brainspan.org) values averaged to genes.
 
@@ -98,7 +120,7 @@ This data set contains RNA-Seq RPKM (reads per kilobase per million; see the whi
 - expression_matrix.csv -- the rows are genes and the columns samples; the first column is the row number. 52376 genes in 524 samples
 
 
-## `CommonMind`
+## CommonMind
 
 https://www.synapse.org/#!Synapse:syn2759792/wiki/
 
@@ -107,7 +129,7 @@ Controlled access data. >1000 postmortem brain samples from donors with Schizoph
 - [Data Terms of Use](https://www.synapse.org/#!Synapse:syn2759792/wiki/197282)
 
 
-## `Roadmap`
+## Roadmap
 
 Histone and DNAse hypersensitive sites, BED and WIG files, http://genboree.org/EdaccData/Release-9/sample-experiment/
 
@@ -127,7 +149,7 @@ Brain regions:
 - Fetal Brain Female
 
 
-## `PsychENCODE`
+## PsychENCODE
 
 https://www.synapse.org//#!Synapse:syn4921369/wiki/235539
 
@@ -135,44 +157,44 @@ Controlled access data. Regulatory genomic elements (promoters, enhancers, silen
 
 - RNA-, miRNA-, lncRNA-, ChIP-, SNP-, ATAC-, WGBS-, HiC- seq datasets, https://www.synapse.org/#!Synapse:syn4921369/wiki/390659
 
-## `HumanFC`
+## HumanFC
 
 https://www.synapse.org/#!Synapse:syn5321694
 
 ATAC-seq data - BAM, BED, BigWig, Metadata, Controlled access data. ATAC-seq has been generated on the DLPFC from 84 control, 82 Schizophrenia and 4 Bipolar Disorder adult brain samples.
 
-## `EpiMap`
+## EpiMap
 
 https://www.synapse.org/#!Synapse:syn4566010
 
 ChIP-seq on H3K27ac and H3K4me3, Controlled access data. Mostly normal brains, PFC and ACC from the same individual.
 
-## `FANTOM5` 
+## FANTOM5
 
 http://slidebase.binf.ku.dk/human_enhancers/presets
 
 BED files of enhancers in general "brain" tissue and in specific cells, e.g. neuron, dendritic cell, astrocyte.
 
-## `Braineac`
+## Braineac
 
 The Brain eQTL Almanac. Gene- or SNP-centric exploration of brain region-specific eQTLs
 
 http://www.braineac.org/
 
-## `BrainGVEX`
+## BrainGVEX
 
 Genetic variants affect brain gene expression and risks of psychiatric disorders. eQTLs, pQTLs, csQTLs (chromatin state) from genotypes, RNA-seq, ATAC-seq, protein arrays
 
 https://www.synapse.org/#!Synapse:syn4590909, Controlled access data 
 
-## Hi-C
+# Hi-C data
 
 - Two human brain regions, dorsolateral prefrontal cortex, hippocampus. No replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87112
 - Two human brain regions: the cortical and subcortical plate (CP), consisting primarily of post-mitotic neurons and the germinal zone (GZ), containing primarily mitotically active neural progenitors. Three replicates per condition. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77565.
 - Six human brain tumours: five glioblastomas ( GB176, GB180, GB182, GB183 and GB238) and one anaplastic astrocytoma (AA86). No replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81879
 - Mouse neural progenitors (NPCs), and cortical neurons (CNs), purified NPC and CN populations from neocortex (ncx_NPC, ncx_CN). Replicates (4-6). https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96107.
 
-## Single-cell RNA-seq
+# Single-cell RNA-seq
 
 - Darmanis, S., Sloan, S.A., Zhang, Y., Enge, M., Caneda, C., Shuer, L.M., Hayden Gephart, M.G., Barres, B.A., and Quake, S.R. (2015). A survey of human brain transcriptome diversity at the single cell level. Proc. Natl. Acad. Sci. USA 112, 7285–7290. 466 human single-cell RNA-seq data on cortex samples. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67835
 
@@ -187,9 +209,9 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 - Major Depressive Disorder Working Group of the Psychiatric Genomics Consortium et al., “Genetic Identification of Brain Cell Types Underlying Schizophrenia,” Nature Genetics 50, no. 6 (June 2018): 825–33, https://doi.org/10.1038/s41588-018-0129-5. - Cell-type specificity of schizophrenia SNPs judged by enrichment in expressed genes. scRNA-seq custom data collection. Difference between schizophrenia and neurological disorders.
     - `data/41588_2018_129_MOESM3_ESM.xlsx` - Supplementary Table 4 - Specificity values for Karolinska scRNA-seq superset. Specificity represents the proportion of the total expression of a gene found in one cell type as compared to that in all cell types (i.e., the mean expression in one cell type divided by the mean expression in all cell types). Gene X cell type matrix. Level 1 (core cell types) and level 2 (extended collection of cell types) data. https://www.nature.com/articles/s41588-018-0129-5#Sec33
 
-## `Misc`
+# Misc
 
-- A recent inventory of 2,104 human- gained enhancers active during cerebral corticogenesis [@Reilly:2015aa]. https://www.ncbi.nlm.nih.gov/pubmed/25745175, ChIP-seq of H3K27ac, H3K4me2, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63649
+- A recent inventory of 2,104 human-gained enhancers active during cerebral corticogenesis [@Reilly:2015aa]. https://www.ncbi.nlm.nih.gov/pubmed/25745175, ChIP-seq of H3K27ac, H3K4me2, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63649
 
 - Strand, Andrew D., Aaron K. Aragaki, Zachary C. Baquet, Angela Hodges, Philip Cunningham, Peter Holmans, Kevin R. Jones, Lesley Jones, Charles Kooperberg, and James M. Olson. “Conservation of Regional Gene Expression in Mouse and Human Brain.” PLoS Genetics 3, no. 4 (April 20, 2007): e59. https://doi.org/10.1371/journal.pgen.0030059. - Normal human and mouse brain gene expression comparison, _motor cortex_, _caudate nucleus_, _cerebellum_ for human and analogous anterior cortex, striatum, and cerebellum samples. Microarrays, 12 human samples in 3 conditions in one set (GSE3790) and 9 human samples in 2 conditions in another set. 6 mouse samples in 3 conditions. Supplement: Normalized Affy probe ID data for individual subjects (human, mouse). Differentially expressed genes between each pair of brain regions http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030059#s5. Human normal brain samples are from a large Huntington's disease study, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE3790
 
