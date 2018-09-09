@@ -215,6 +215,8 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 # Misc
 
+- `data/Brain_genes_TableS1.xlsx` - mouse brain cell type-specific genes. From Budakian et al. - 2014 - Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seq. [Source](http://www.sciencemag.org/content/suppl/2015/02/18/science.aaa1934.DC1/aaa1934_TableS1.xlsx)
+
 - A recent inventory of 2,104 human-gained enhancers active during cerebral corticogenesis [@Reilly:2015aa]. https://www.ncbi.nlm.nih.gov/pubmed/25745175, ChIP-seq of H3K27ac, H3K4me2, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63649
 
 - Strand, Andrew D., Aaron K. Aragaki, Zachary C. Baquet, Angela Hodges, Philip Cunningham, Peter Holmans, Kevin R. Jones, Lesley Jones, Charles Kooperberg, and James M. Olson. “Conservation of Regional Gene Expression in Mouse and Human Brain.” PLoS Genetics 3, no. 4 (April 20, 2007): e59. https://doi.org/10.1371/journal.pgen.0030059. - Normal human and mouse brain gene expression comparison, _motor cortex_, _caudate nucleus_, _cerebellum_ for human and analogous anterior cortex, striatum, and cerebellum samples. Microarrays, 12 human samples in 3 conditions in one set (GSE3790) and 9 human samples in 2 conditions in another set. 6 mouse samples in 3 conditions. Supplement: Normalized Affy probe ID data for individual subjects (human, mouse). Differentially expressed genes between each pair of brain regions http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030059#s5. Human normal brain samples are from a large Huntington's disease study, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE3790
