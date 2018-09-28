@@ -177,9 +177,7 @@ BED files of enhancers in general "brain" tissue and in specific cells, e.g. neu
 
 ## Braineac
 
-The Brain eQTL Almanac. Gene- or SNP-centric exploration of brain region-specific eQTLs
-
-http://www.braineac.org/
+The Brain eQTL Almanac. Gene- or SNP-centric exploration of brain region-specific eQTLs. 130 individuals with multiple brain region samples. The aim of Braineac is to release to the scientific community a valid instrument to investigate the genes and SNPs associated with neurological disorders. http://www.braineac.org/
 
 ## BrainGVEX
 
