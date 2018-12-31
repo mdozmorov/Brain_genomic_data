@@ -4,6 +4,9 @@ Mostly human, but some datasets contain omics data from model organisms.
 
 * [Consortia](#consortia)
   * [Allen Brain Atlas](#allen-brain-atlas)
+    * [Human Brain Atlas](#human-brain-atlas)
+    * [Aging, dementia and TBI](#aging--dementia-and-tbi)
+    * [IVY Glioblastoma Atlas](#ivy-glioblastoma-atlas)
   * [BrainSpan](#brainspan)
     * [Methylation](#methylation)
     * [microRNA](#microrna)
@@ -23,65 +26,54 @@ Mostly human, but some datasets contain omics data from model organisms.
 
 ## Allen Brain Atlas
 
-Allen Brain Atlas, Human brain. RNA-Sequencing datasets from two brains. http://human.brain-map.org/static/download
+- All Allen Brain Atlases and data, human and mouse. http://portal.brain-map.org
+    - **Cell types database** (electrophysiological, morphological, and transcriptomic data measured from individual cells)
+    - **Brain observatory** (in vivo recordings)
+    - **Mouse brain connectivity atlas** (image data detailing cell types in different brain areas)
+    - **Reference atlases** (anatomy maps of human and mouse brain)
+    - **Mouse brain atlas**, **Developing mouse brain atlas** (IHC gene expression, spatial correlation)
+    - **Adult and developing non-human primate (NHP) atlas** (gene expression, neuroanatomical data)
+    - **Mouse spinal cord atlas** (gene expression and imaging data)
 
-These datasets contain gene expression values (raw and TPM counts) for a selected set of anatomic structures matched across the two brains, as well as sample and gene metadata necessary for analysis: H0351.2001, H0351.2002.
+### Human brain atlas
 
-- `AllenReferenceAtlas_v1_2008_102011.pdf` - abbreviations of anatomical structures, http://help.brain-map.org/download/attachments/2818169/AllenReferenceAtlas_v1_2008_102011.pdf?version=1
+http://human.brain-map.org/static/download
 
-Brain regions:
+- Microarray datasets. All normalized microarray expression values as well as probe and sample metadata.
+- RNA-Sequencing datasets from two brains. Gene expression values (raw and TPM counts) for a selected set of anatomic structures matched across the two brains, as well as sample and gene metadata.
 
-- PL	parietal lobe
-- FL	frontal lobe
-- OL	occipital lobe
-- Ins	insula
-- TL	temporal lobe
-- PHG	parahippocampal gyrus
-- Str	striatum
-- CgG	cingulate gyrus
-- GP	globus pallidus
-- CbCx	cerebellar cortex
-
-- `Contents.txt` - describes the files in the zipped folders.
-
-- `rnaseq_donor9861.zip` - 121 samples. `RNAseqTPM.csv` - first column - gene name, `SampleAnnot.csv`
-
+- Data in `Allen_Brain_Atlas`
+    - `AllenReferenceAtlas_v1_2008_102011.pdf` - abbreviations of anatomical structures, [Source](http://help.brain-map.org/download/attachments/2818169/AllenReferenceAtlas_v1_2008_102011.pdf?version=1). Brain regions: **PL** - parietal lobe; **FL** - frontal lobe; **OL** occipital lobe; **Ins** - insula; **TL** - temporal lobe; **PHG** - parahippocampal gyrus; **Str** striatum; **CgG** cingulate gyrus; **GP** - globus pallidus; **CbCx** cerebellar cortex.
+    - `Contents.txt` - describes the files in the zipped folders.
+    - `rnaseq_donor9861.zip` - 121 samples. `RNAseqTPM.csv` - first column - gene name, `SampleAnnot.csv`
 ```
 CbCx  CgG   FL   GP  Ins   OL  PHG   PL  Str   TL 
    4    4   39    4    4    9    4   28    9   16 
 ```
-
-- `rnaseq_donor10021.zip` - 121 samples
-
+    - `rnaseq_donor10021.zip` - 121 samples
 ```
 CbCx  CgG   FL   GP  Ins   OL  PHG   PL  Str   TL 
    5    4   37    4    4    8    4   31    8   16 
 ```
 
+### Aging, dementia and TBI
+
+The Aging, Dementia and Traumatic Brain Injury Study is a detailed neuropathologic, molecular and transcriptomic characterization of brains of control and TBI exposure cases from a unique aged population-based cohort from the Adult Changes in Thought (ACT) study, http://aging.brain-map.org/
+
+De-identified clinical information, protein quantification, normalized and unnormalized RNA-seq FPKM values. http://aging.brain-map.org/download/index
+
+### IVY Glioblastoma Atlas
+
+The Ivy Glioblastoma Atlas Project is a foundational resource for exploring the anatomic and genetic basis of glioblastoma at the cellular and molecular levels. http://glioblastoma.alleninstitute.org/
+
+Patient and tumor information, normalized and unnormalized RNA-seq FPKM values. http://glioblastoma.alleninstitute.org/static/download.html
+
 
 ## BrainSpan
 
-BrainSpan transcriptomics and epigenomics of the developing human brain
+BrainSpan transcriptomics and epigenomics of the developing human brain. http://www.brainspan.org/
 
-Brain regions:
-
-- DFC	Dorsolateral prefrontal cortex
-- VFC	Ventrolateral prefrontal cortex
-- MFC	Anterior (rostral) cingulate (medial prefrontal) cortex
-- OFC	Orbital frontal cortex
-- M1C	Primary motor cortex (area M1, area 4)
-- S1C	Primary somatosensory cortex (area S1, areas 3,1,2)
-- IPC	Posteroinferior (ventral) parietal cortex
-- A1C	Primary auditory cortex (core)
-- STC	Posterior (caudal) superior temporal cortex (area TAc)
-- ITC	Inferolateral temporal cortex (area TEv, area 20)
-- V1C	Primary visual cortex (striate cortex, area V1/17)
-- HIP	Hippocampus (hippocampal formation)
-- AMY	Amygdaloid complex
-- STR	Striatum
-- MD	Mediodorsal nucleus of thalamus
-- CBC	Cerebellar cortex
-- M1C-S1C	Primary motor-sensory cortex (samples)
+Brain regions: **DFC** - Dorsolateral prefrontal cortex; **VFC** - Ventrolateral prefrontal cortex; **MFC** - Anterior (rostral) cingulate (medial prefrontal) cortex; **OFC** - Orbital frontal cortex; **M1C** - Primary motor cortex (area M1, area 4); **S1C** - Primary somatosensory cortex (area S1, areas 3,1,2); **IPC** - Posteroinferior (ventral) parietal cortex; **A1C** - Primary auditory cortex (core); **STC** - Posterior (caudal) superior temporal cortex (area TAc); **ITC** - Inferolateral temporal cortex (area TEv, area 20); **V1C** - Primary visual cortex (striate cortex, area V1/17); **HIP** - Hippocampus (hippocampal formation); **AMY** - Amygdaloid complex; **STR** - Striatum; **MD** - Mediodorsal nucleus of thalamus; **CBC** - Cerebellar cortex; **M1C-S1C** - Primary motor-sensory cortex (samples)
 
 ### Methylation
 
