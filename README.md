@@ -151,6 +151,9 @@ Controlled access data. Regulatory genomic elements (promoters, enhancers, silen
 - PsychENCODE resource. Genomics of the human brain: 1866 samples, gene expression (bulk and ~32,000 single-cell, decomposed with NMF into cell type profiles), enhancers, Hi-C, eQTLs and eGenes, GWAS variants linked to genes, regulatory networks, integrated data using deep learning. Samples from healthy and psychiatric disorder patients. Four data levels: raw, processed, derived, integrative. Download: gene expression matrix (bulk and single-cell), differentially expressed and spliced (cross-disease) genes, enhancer (H3K27ac) peaks, QTL maps. http://resource.psychencode.org
     - Wang, Daifeng, Shuang Liu, Jonathan Warrell, Hyejung Won, Xu Shi, Fabio C. P. Navarro, Declan Clarke, et al. “Comprehensive Functional Genomic Resource and Integrative Model for the Human Brain.” Science 362, no. 6420 (December 14, 2018): eaat8464. https://doi.org/10.1126/science.aat8464.
 
+- Human brain development, integrative analysis by PsychEncode and BrainSpan. Genotyping, bulk and scRNA-seq, small RNA-seq, histone-seq, methylation. Detailed analysis of pre- and postnatal periods differences, figures. Processed and raw data at http://development.psychencode.org/ and http://brainspan.org/
+    - Li, Mingfeng, Gabriel Santpere, Yuka Imamura Kawasawa, Oleg V. Evgrafov, Forrest O. Gulden, Sirisha Pochareddy, Susan M. Sunkin, et al. “Integrative Functional Genomic Analysis of Human Brain Development and Neuropsychiatric Risks.” Science 362, no. 6420 (December 14, 2018): eaat7615. https://doi.org/10.1126/science.aat7615.
+
 
 ## HumanFC
 
