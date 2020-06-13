@@ -19,6 +19,7 @@ Mostly human, but some datasets contain omics data from model organisms.
   * [FANTOM5](#fantom5)
   * [Braineac](#braineac)
   * [BrainGVEX](#braingvex)
+* [ATAC-seq data](#atac-seq-data)
 * [Hi-C data](#hi-c-data)
 * [Misc](#misc)
 
@@ -182,6 +183,12 @@ The Brain eQTL Almanac. Gene- or SNP-centric exploration of brain region-specifi
 Genetic variants affect brain gene expression and risks of psychiatric disorders. eQTLs, pQTLs, csQTLs (chromatin state) from genotypes, RNA-seq, ATAC-seq, protein arrays
 
 https://www.synapse.org/#!Synapse:syn4590909, Controlled access data 
+
+# ATAC-seq data
+
+- [MouseBrain](http://catlas.org/mousebrain/#!/home) - scATAC-seq from 45 regions of mouse brain. Data explorer, text-based download. http://catlas.org/mousebrain/#!/home
+    - Li, Yang Eric, Sebastian Preissl, Xiaomeng Hou, Ziyang Zhang, Kai Zhang, Rongxin Fang, Yunjiang Qiu, et al. “An Atlas of Gene Regulatory Elements in Adult Mouse Cerebrum.” Preprint. Neuroscience, May 11, 2020. https://doi.org/10.1101/2020.05.10.087585.
+ 
 
 # Hi-C data
 
