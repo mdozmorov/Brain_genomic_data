@@ -200,6 +200,9 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 # Misc
 
+- meQTLs using whole genome bisulfite sequencing in schizophrenia, DLPFC and hippocampus regions. 38% CpGs are meQTLs. Expermiental confounders have little effect. Accounting for LD, clustering into regions. Results from two regions overlap. Comparison with controls, DMRs. Gene ontology enrichment of meQTL-associated genes in brain-related processes. CpH DNAm level is less associated with genomic variations.Age associations. All results are in the [supplementary tables](https://www.biorxiv.org/content/10.1101/2020.09.24.311878v1.supplementary-material)
+    - Perzel Mandell, Kira A, Nicholas J Eagles, Richard Wilton, Amanda J Price, Stephen A Semick, Leonardo Collado-Torres, Ran Tao, et al. “[Widespread Methylation Quantitative Trait Loci and Their Role in Schizophrenia Risk](https://doi.org/10.1101/2020.09.24.311878).” Preprint. Genomics, September 24, 2020.
+
 - `Neurodata.io` - Neurodata.io is a repository of image data. R packages and tools for statistical data analysis. https://neurodata.io/tools/
     - Burns, Randal, Eric Perlman, Alex Baden, William Gray Roncal, Ben Falk, Vikram Chandrashekhar, Forrest Collman, et al. “A Community-Developed Open-Source Computational Ecosystem for Big Neuro Data.” ArXiv:1804.02835 [q-Bio], April 9, 2018. http://arxiv.org/abs/1804.02835.
 
