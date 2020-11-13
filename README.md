@@ -200,6 +200,8 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 # scRNA-seq data
 
+- [NeMo](https://nemoarchive.org/) - the Neuroscience Multi-omics Data Archive. Data organized by assay (chromatin, methylation, transcriptome), grant, lab, organism (human, mouse). [Direct download](http://data.nemoarchive.org/)
+
 - scRNA-seq of human and mouse embryonic midbrain during development. Comparison of cell types and their temporal patterns. [BackSPIN clustering algorithm](https://github.com/linnarsson-lab/BackSPIN). [Raw and processed data (approx. 2000 cells per organism)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76381). [Code to reproduce the results](https://github.com/linnarsson-lab/ipynb-lamanno2016)
     - La Manno, Gioele, Daniel Gyllborg, Simone Codeluppi, Kaneyasu Nishimura, Carmen Salto, Amit Zeisel, Lars E. Borm, et al. “[Molecular Diversity of Midbrain Development in Mouse, Human, and Stem Cells](https://doi.org/10.1016/j.cell.2016.09.027).” Cell 167, no. 2 (October 6, 2016)
 
