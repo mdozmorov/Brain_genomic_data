@@ -200,6 +200,15 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 # scRNA-seq data
 
+- scRNA-seq of human and mouse embryonic midbrain during development. Comparison of cell types and their temporal patterns. [BackSPIN clustering algorithm](https://github.com/linnarsson-lab/BackSPIN). [Raw and processed data (approx. 2000 cells per organism)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76381). [Code to reproduce the results](https://github.com/linnarsson-lab/ipynb-lamanno2016)
+    - La Manno, Gioele, Daniel Gyllborg, Simone Codeluppi, Kaneyasu Nishimura, Carmen Salto, Amit Zeisel, Lars E. Borm, et al. “[Molecular Diversity of Midbrain Development in Mouse, Human, and Stem Cells](https://doi.org/10.1016/j.cell.2016.09.027).” Cell 167, no. 2 (October 6, 2016)
+
+- `data/Brain_scRNA-seq_TableS3.txt` - brain cell type-specific genes, from Darmanis S. et.al, and Stephen R. Quake. “A Survey of Human Brain Transcriptome Diversity at the Single Cell Level.” PNAS 2015 https://www.ncbi.nlm.nih.gov/pubmed/26060301. Ten signatures, 20-genes each. `data/Brain_scRNA-seq_TableS3_matrix.txt` - signature matrix reformatted into genes vs. cell types, with each cell having 1/0 to indicate a gene is a part or not of a cell type-specific signature.
+
+- `data/Brain_genes_TableS1.xlsx` - mouse brain cell type-specific genes. From Budakian et al. - 2014 - Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seq. [Source](http://www.sciencemag.org/content/suppl/2015/02/18/science.aaa1934.DC1/aaa1934_TableS1.xlsx)
+
+
+
 # Misc
 
 - meQTLs using whole genome bisulfite sequencing in schizophrenia, DLPFC and hippocampus regions. 38% CpGs are meQTLs. Expermiental confounders have little effect. Accounting for LD, clustering into regions. Results from two regions overlap. Comparison with controls, DMRs. Gene ontology enrichment of meQTL-associated genes in brain-related processes. CpH DNAm level is less associated with genomic variations.Age associations. All results are in the [supplementary tables](https://www.biorxiv.org/content/10.1101/2020.09.24.311878v1.supplementary-material)
@@ -207,13 +216,6 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 - `Neurodata.io` - Neurodata.io is a repository of image data. R packages and tools for statistical data analysis. https://neurodata.io/tools/
     - Burns, Randal, Eric Perlman, Alex Baden, William Gray Roncal, Ben Falk, Vikram Chandrashekhar, Forrest Collman, et al. “A Community-Developed Open-Source Computational Ecosystem for Big Neuro Data.” ArXiv:1804.02835 [q-Bio], April 9, 2018. http://arxiv.org/abs/1804.02835.
-
-- scRNA-seq of human and mouse embryonic midbrain during development. Comparison of cell types and their temporal patterns. [BackSPIN clustering algorithm](https://github.com/linnarsson-lab/BackSPIN). [Raw and processed data (approx. 2000 cells per organism)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76381). [Code to reproduce the results](https://github.com/linnarsson-lab/ipynb-lamanno2016)
-    - La Manno, Gioele, Daniel Gyllborg, Simone Codeluppi, Kaneyasu Nishimura, Carmen Salto, Amit Zeisel, Lars E. Borm, et al. “[Molecular Diversity of Midbrain Development in Mouse, Human, and Stem Cells](https://doi.org/10.1016/j.cell.2016.09.027).” Cell 167, no. 2 (October 6, 2016)
-
-- `data/Brain_scRNA-seq_TableS3.txt` - brain cell type-specific genes, from Darmanis S. et.al, and Stephen R. Quake. “A Survey of Human Brain Transcriptome Diversity at the Single Cell Level.” PNAS 2015 https://www.ncbi.nlm.nih.gov/pubmed/26060301. Ten signatures, 20-genes each. `data/Brain_scRNA-seq_TableS3_matrix.txt` - signature matrix reformatted into genes vs. cell types, with each cell having 1/0 to indicate a gene is a part or not of a cell type-specific signature.
-
-- `data/Brain_genes_TableS1.xlsx` - mouse brain cell type-specific genes. From Budakian et al. - 2014 - Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seq. [Source](http://www.sciencemag.org/content/suppl/2015/02/18/science.aaa1934.DC1/aaa1934_TableS1.xlsx)
 
 - A recent inventory of 2,104 human-gained enhancers active during cerebral corticogenesis [@Reilly:2015aa]. https://www.ncbi.nlm.nih.gov/pubmed/25745175, ChIP-seq of H3K27ac, H3K4me2, https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63649
 
