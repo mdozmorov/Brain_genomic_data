@@ -21,6 +21,7 @@ Mostly human, but some datasets contain omics data from model organisms.
   * [BrainGVEX](#braingvex)
 * [ATAC-seq data](#atac-seq-data)
 * [Hi-C data](#hi-c-data)
+* [scRNA-seq data](#scrna-seq-data)
 * [Misc](#misc)
 
 # Consortia
@@ -197,6 +198,7 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 - Six human brain tumours: five glioblastomas ( GB176, GB180, GB182, GB183 and GB238) and one anaplastic astrocytoma (AA86). No replicates. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81879
 - Mouse neural progenitors (NPCs), and cortical neurons (CNs), purified NPC and CN populations from neocortex (ncx_NPC, ncx_CN). Replicates (4-6). https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96107.
 
+# scRNA-seq data
 
 # Misc
 
