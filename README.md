@@ -202,6 +202,9 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 - [NeMo](https://nemoarchive.org/) - the Neuroscience Multi-omics Data Archive. Data organized by assay (chromatin, methylation, transcriptome), grant, lab, organism (human, mouse). [Direct download](http://data.nemoarchive.org/)
 
+- Single-nucleus droplet-based sequencing (snDrop-seq) and single-cell transposome hypersensitive site sequencing (scTHS-seq) of >60K cells from various parts of human adult brain. Resolving subpopulations, integrating the datasets, predicting one modality from another using the GBM classifier, integration with GWAS signal. Detailed methods, Data processing using Pagoda2, Seurat, LIGER, Monocle, [Code](https://github.com/JEFworks/Supplementary-Code), [Data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97942), [Supplementary Table 3](https://www.nature.com/articles/nbt.4038#Sec35) - neuronal subpopulation-specific gene lists
+    - Lake, Blue B, Song Chen, Brandon C Sos, Jean Fan, Gwendolyn E Kaeser, Yun C Yung, Thu E Duong, et al. “[Integrative Single-Cell Analysis of Transcriptional and Epigenetic States in the Human Adult Brain](https://doi.org/10.1038/nbt.4038).” Nature Biotechnology 36, no. 1 (December 11, 2017)
+
 - scRNA-seq of human and mouse embryonic midbrain during development. Comparison of cell types and their temporal patterns. [BackSPIN clustering algorithm](https://github.com/linnarsson-lab/BackSPIN). [Raw and processed data (approx. 2000 cells per organism)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76381). [Code to reproduce the results](https://github.com/linnarsson-lab/ipynb-lamanno2016)
     - La Manno, Gioele, Daniel Gyllborg, Simone Codeluppi, Kaneyasu Nishimura, Carmen Salto, Amit Zeisel, Lars E. Borm, et al. “[Molecular Diversity of Midbrain Development in Mouse, Human, and Stem Cells](https://doi.org/10.1016/j.cell.2016.09.027).” Cell 167, no. 2 (October 6, 2016)
 
