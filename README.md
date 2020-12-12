@@ -200,6 +200,9 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 # scRNA-seq data
 
+- [Drop-seq scRNA-seq data of 690,000 cells from 9 regions of adult mouse brain](http://dropviz.org/). Independent Component Analysis (ICA). ICs grouped into 565 transcriptionally distinct clusters (323 neuronal) corresponding to biological signals using network-based clustering. [DropViz](http://dropviz.org/) visualization, data download in CSV, RData, with annotations.
+    - Saunders, Arpiar, Evan Z. Macosko, Alec Wysoker, Melissa Goldman, Fenna M. Krienen, Heather de Rivera, Elizabeth Bien, et al. “[Molecular Diversity and Specializations among the Cells of the Adult Mouse Brain](https://doi.org/10.1016/j.cell.2018.07.028).” Cell 174, no. 4 (09 2018)
+
 - [NeMo](https://nemoarchive.org/) - the Neuroscience Multi-omics Data Archive. Data organized by assay (chromatin, methylation, transcriptome), grant, lab, organism (human, mouse). [Direct download](http://data.nemoarchive.org/)
 
 - Single-nucleus droplet-based sequencing (snDrop-seq) and single-cell transposome hypersensitive site sequencing (scTHS-seq) of >60K cells from various parts of human adult brain. Resolving subpopulations, integrating the datasets, predicting one modality from another using the GBM classifier, integration with GWAS signal. Detailed methods, Data processing using Pagoda2, Seurat, LIGER, Monocle, [Code](https://github.com/JEFworks/Supplementary-Code), [Data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97942), [Supplementary Table 3](https://www.nature.com/articles/nbt.4038#Sec35) - neuronal subpopulation-specific gene lists
