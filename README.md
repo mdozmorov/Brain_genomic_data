@@ -216,6 +216,9 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 # Misc
 
+- Epigenomics of brain metastasis - Illumina 450K methylation of 96 brain metastasis specimens from patients with lung, breast, and melanoma cancers. BrainMETH - a classifier to distinguish molecular subtypes. minfi data processing. [Raw and normalized data at GSE108576](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108576)
+    - Salomon et al., “[Brain Metastasis DNA Methylomes, a Novel Resource for the Identification of Biological and Clinical Features](https://doi.org/10.1038/sdata.2018.245)”
+
 - meQTLs using whole genome bisulfite sequencing in schizophrenia, DLPFC and hippocampus regions. 38% CpGs are meQTLs. Expermiental confounders have little effect. Accounting for LD, clustering into regions. Results from two regions overlap. Comparison with controls, DMRs. Gene ontology enrichment of meQTL-associated genes in brain-related processes. CpH DNAm level is less associated with genomic variations.Age associations. All results are in the [supplementary tables](https://www.biorxiv.org/content/10.1101/2020.09.24.311878v1.supplementary-material)
     - Perzel Mandell, Kira A, Nicholas J Eagles, Richard Wilton, Amanda J Price, Stephen A Semick, Leonardo Collado-Torres, Ran Tao, et al. “[Widespread Methylation Quantitative Trait Loci and Their Role in Schizophrenia Risk](https://doi.org/10.1101/2020.09.24.311878).” Preprint. Genomics, September 24, 2020.
 
