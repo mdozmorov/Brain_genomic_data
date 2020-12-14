@@ -39,13 +39,10 @@ Mostly human, but some datasets contain omics data from model organisms.
 
 ### Human brain atlas
 
-http://human.brain-map.org/static/download
-
-- Microarray datasets. All normalized microarray expression values as well as probe and sample metadata.
-- RNA-Sequencing datasets from two brains. Gene expression values (raw and TPM counts) for a selected set of anatomic structures matched across the two brains, as well as sample and gene metadata.
-
-- Data in `Allen_Brain_Atlas`
-    - `AllenReferenceAtlas_v1_2008_102011.pdf` - abbreviations of anatomical structures, [Source](http://help.brain-map.org/download/attachments/2818169/AllenReferenceAtlas_v1_2008_102011.pdf?version=1). Brain regions: **PL** - parietal lobe; **FL** - frontal lobe; **OL** occipital lobe; **Ins** - insula; **TL** - temporal lobe; **PHG** - parahippocampal gyrus; **Str** striatum; **CgG** cingulate gyrus; **GP** - globus pallidus; **CbCx** cerebellar cortex.
+- Hawrylycz, Michael J., Ed S. Lein, Angela L. Guillozet-Bongaarts, Elaine H. Shen, Lydia Ng, Jeremy A. Miller, Louie N. van de Lagemaat, et al. “[An Anatomically Comprehensive Atlas of the Adult Human Brain Transcriptome](https://doi.org/10.1038/nature11405).” Nature 489, no. 7416 (September 2012) - [Allen Human Brain Atlas](https://portal.brain-map.org/) - gene expression of approx. 900 neuroanatomical slices of brain from two individuals. In Situ Hybridization, Microarrays, MRI. Gene expression correlate with spatial localization. [Data download](http://human.brain-map.org/static/)download
+    - Microarray datasets. All normalized microarray expression values as well as probe and sample metadata.
+    - RNA-Sequencing datasets from two brains. Gene expression values (raw and TPM counts) for a selected set of anatomic structures matched across the two brains, as well as sample and gene metadata.
+    - [AllenReferenceAtlas_v1_2008_102011.pdf](http://help.brain-map.org/download/attachments/2818169/AllenReferenceAtlas_v1_2008_102011.pdf?version=1) - abbreviations of anatomical structures. Brain regions: **PL** - parietal lobe; **FL** - frontal lobe; **OL** occipital lobe; **Ins** - insula; **TL** - temporal lobe; **PHG** - parahippocampal gyrus; **Str** striatum; **CgG** cingulate gyrus; **GP** - globus pallidus; **CbCx** cerebellar cortex.
     - `Contents.txt` - describes the files in the zipped folders.
     - `rnaseq_donor9861.zip` - 121 samples. `RNAseqTPM.csv` - first column - gene name, `SampleAnnot.csv`
 ```
