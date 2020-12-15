@@ -197,6 +197,12 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 # scRNA-seq data
 
+- snRNA-seq of Alzheimer's disease. 24 disease and 24 healthy individuals. 80,660 cells, 75,060 after filtering. ROSMAP study. [News press release](https://news.mit.edu/2019/gene-map-alzheimers-brain-0501) [snRNA-seq data](https://www.radc.rush.edu/docs/omics.htm), analysis results in [Supplementary Material](https://www.nature.com/articles/s41586-019-1195-2#Sec33)
+    - [Supplementary Table 2](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-019-1195-2/MediaObjects/41586_2019_1195_MOESM4_ESM.xlsx) - cell type-specific differentially expressed genes
+    - [Supplementary Table 3](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-019-1195-2/MediaObjects/41586_2019_1195_MOESM4_ESM.xlsx) - clinical annotations
+    - [Supplementary Table 6](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-019-1195-2/MediaObjects/41586_2019_1195_MOESM8_ESM.xlsx) - Cell-type sub-population signature genes
+    - Mathys, Hansruedi, Jose Davila-Velderrain, Zhuyu Peng, Fan Gao, Shahin Mohammadi, Jennie Z. Young, Madhvi Menon, et al. “[Single-Cell Transcriptomic Analysis of Alzheimer’s Disease](https://doi.org/10.1038/s41586-019-1195-2).” Nature, May 1, 2019
+
 - [Drop-seq scRNA-seq data of 690,000 cells from 9 regions of adult mouse brain](http://dropviz.org/). Independent Component Analysis (ICA). ICs grouped into 565 transcriptionally distinct clusters (323 neuronal) corresponding to biological signals using network-based clustering. [DropViz](http://dropviz.org/) visualization, data download in CSV, RData, with annotations.
     - Saunders, Arpiar, Evan Z. Macosko, Alec Wysoker, Melissa Goldman, Fenna M. Krienen, Heather de Rivera, Elizabeth Bien, et al. “[Molecular Diversity and Specializations among the Cells of the Adult Mouse Brain](https://doi.org/10.1016/j.cell.2018.07.028).” Cell 174, no. 4 (09 2018)
 
