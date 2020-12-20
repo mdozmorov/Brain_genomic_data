@@ -197,22 +197,7 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 # scRNA-seq data
 
-- snRNA-seq of Alzheimer's disease. 24 disease and 24 healthy individuals. 80,660 cells, 75,060 after filtering. ROSMAP study. [News press release](https://news.mit.edu/2019/gene-map-alzheimers-brain-0501) [snRNA-seq data](https://www.radc.rush.edu/docs/omics.htm), analysis results in [Supplementary Material](https://www.nature.com/articles/s41586-019-1195-2#Sec33)
-    - [Supplementary Table 2](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-019-1195-2/MediaObjects/41586_2019_1195_MOESM4_ESM.xlsx) - cell type-specific differentially expressed genes
-    - [Supplementary Table 3](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-019-1195-2/MediaObjects/41586_2019_1195_MOESM4_ESM.xlsx) - clinical annotations
-    - [Supplementary Table 6](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-019-1195-2/MediaObjects/41586_2019_1195_MOESM8_ESM.xlsx) - Cell-type sub-population signature genes
-    - Mathys, Hansruedi, Jose Davila-Velderrain, Zhuyu Peng, Fan Gao, Shahin Mohammadi, Jennie Z. Young, Madhvi Menon, et al. “[Single-Cell Transcriptomic Analysis of Alzheimer’s Disease](https://doi.org/10.1038/s41586-019-1195-2).” Nature, May 1, 2019
-
-- [Drop-seq scRNA-seq data of 690,000 cells from 9 regions of adult mouse brain](http://dropviz.org/). Independent Component Analysis (ICA). ICs grouped into 565 transcriptionally distinct clusters (323 neuronal) corresponding to biological signals using network-based clustering. [DropViz](http://dropviz.org/) visualization, data download in CSV, RData, with annotations.
-    - Saunders, Arpiar, Evan Z. Macosko, Alec Wysoker, Melissa Goldman, Fenna M. Krienen, Heather de Rivera, Elizabeth Bien, et al. “[Molecular Diversity and Specializations among the Cells of the Adult Mouse Brain](https://doi.org/10.1016/j.cell.2018.07.028).” Cell 174, no. 4 (09 2018)
-
-- [NeMo](https://nemoarchive.org/) - the Neuroscience Multi-omics Data Archive. Data organized by assay (chromatin, methylation, transcriptome), grant, lab, organism (human, mouse). [Direct download](http://data.nemoarchive.org/)
-
-- Single-nucleus droplet-based sequencing (snDrop-seq) and single-cell transposome hypersensitive site sequencing (scTHS-seq) of >60K cells from various parts of human adult brain. Resolving subpopulations, integrating the datasets, predicting one modality from another using the GBM classifier, integration with GWAS signal. Detailed methods, Data processing using Pagoda2, Seurat, LIGER, Monocle, [Code](https://github.com/JEFworks/Supplementary-Code), [Data](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97942), [Supplementary Table 3](https://www.nature.com/articles/nbt.4038#Sec35) - neuronal subpopulation-specific gene lists
-    - Lake, Blue B, Song Chen, Brandon C Sos, Jean Fan, Gwendolyn E Kaeser, Yun C Yung, Thu E Duong, et al. “[Integrative Single-Cell Analysis of Transcriptional and Epigenetic States in the Human Adult Brain](https://doi.org/10.1038/nbt.4038).” Nature Biotechnology 36, no. 1 (December 11, 2017)
-
-- scRNA-seq of human and mouse embryonic midbrain during development. Comparison of cell types and their temporal patterns. [BackSPIN clustering algorithm](https://github.com/linnarsson-lab/BackSPIN). [Raw and processed data (approx. 2000 cells per organism)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE76381). [Code to reproduce the results](https://github.com/linnarsson-lab/ipynb-lamanno2016)
-    - La Manno, Gioele, Daniel Gyllborg, Simone Codeluppi, Kaneyasu Nishimura, Carmen Salto, Amit Zeisel, Lars E. Borm, et al. “[Molecular Diversity of Midbrain Development in Mouse, Human, and Stem Cells](https://doi.org/10.1016/j.cell.2016.09.027).” Cell 167, no. 2 (October 6, 2016)
+See [scRNA-seq notes, Brain section](https://github.com/mdozmorov/scRNA-seq_notes#brain)
 
 - `data/Brain_scRNA-seq_TableS3.txt` - brain cell type-specific genes, from Darmanis S. et.al, and Stephen R. Quake. “A Survey of Human Brain Transcriptome Diversity at the Single Cell Level.” PNAS 2015 https://www.ncbi.nlm.nih.gov/pubmed/26060301. Ten signatures, 20-genes each. `data/Brain_scRNA-seq_TableS3_matrix.txt` - signature matrix reformatted into genes vs. cell types, with each cell having 1/0 to indicate a gene is a part or not of a cell type-specific signature.
 
@@ -221,6 +206,8 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 
 # Misc
+
+- [NeMo](https://nemoarchive.org/) - the Neuroscience Multi-omics Data Archive. Data organized by assay (chromatin, methylation, transcriptome), grant, lab, organism (human, mouse). [Direct download](http://data.nemoarchive.org/)
 
 - Epigenomics of brain metastasis - Illumina 450K methylation of 96 brain metastasis specimens from patients with lung, breast, and melanoma cancers. BrainMETH - a classifier to distinguish molecular subtypes. minfi data processing. [Raw and normalized data at GSE108576](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108576)
     - Salomon et al., “[Brain Metastasis DNA Methylomes, a Novel Resource for the Identification of Biological and Clinical Features](https://doi.org/10.1038/sdata.2018.245)”
