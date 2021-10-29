@@ -209,6 +209,8 @@ See [scRNA-seq notes, Brain section](https://github.com/mdozmorov/scRNA-seq_note
 
 # Misc
 
+- [gpertea/svgs](https://github.com/gpertea/svgs) - brain SVG clip art for web, presentations etc.
+
 - [NeMo](https://nemoarchive.org/) - the Neuroscience Multi-omics Data Archive. Data organized by assay (chromatin, methylation, transcriptome), grant, lab, organism (human, mouse). [Direct download](http://data.nemoarchive.org/)
 
 - Epigenomics of brain metastasis - Illumina 450K methylation of 96 brain metastasis specimens from patients with lung, breast, and melanoma cancers. BrainMETH - a classifier to distinguish molecular subtypes. minfi data processing. [Raw and normalized data at GSE108576](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108576)
