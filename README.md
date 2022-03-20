@@ -184,6 +184,11 @@ https://www.synapse.org/#!Synapse:syn4590909, Controlled access data
 
 # ATAC-seq data
 
+- Single-cell epigenomic identification of inherited risk loci in Alzheimer’s and Parkinson’s disease. scATAC-seq data integrated with published HiChIP data. [GitHub](https://github.com/kundajelab/alzheimers_parkinsons). [GEO GSE147672](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147672) - processed scATAC-seq data, BED, bigWig, SummarizedExperiment. [WashU session drS3o1n4kJ](http://epigenomegateway.wustl.edu/legacy/?genome=hg38&%20session=drS3o1n4kJ) with scATAS clusters, cell types, neuron subclusters and cell types. [Supplementary data](https://www.nature.com/articles/s41588-020-00721-x#Sec47) with scATAC-seq peaks, neuronal cluster definitions, differential accessibility. <details>
+    <summary>Paper</summary>
+    Corces, M. Ryan, Anna Shcherbina, Soumya Kundu, Michael J. Gloudemans, Laure Frésard, Jeffrey M. Granja, Bryan H. Louie, et al. “Single-Cell Epigenomic Analyses Implicate Candidate Causal Variants at Inherited Risk Loci for Alzheimer’s and Parkinson’s Diseases.” Nature Genetics 52, no. 11 (November 2020): 1158–68. https://doi.org/10.1038/s41588-020-00721-x.
+</details>
+
 - [MouseBrain](http://catlas.org/mousebrain/#!/home) - scATAC-seq from 45 regions of mouse brain. Data explorer, text-based download. http://catlas.org/mousebrain/#!/home
     - Li, Yang Eric, Sebastian Preissl, Xiaomeng Hou, Ziyang Zhang, Kai Zhang, Rongxin Fang, Yunjiang Qiu, et al. “An Atlas of Gene Regulatory Elements in Adult Mouse Cerebrum.” Preprint. Neuroscience, May 11, 2020. https://doi.org/10.1101/2020.05.10.087585.
  
